@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }} - DnD Table</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div>
+            <h1>DnD Table</h1>
+            <p class="tagline">Coordinate your next adventure</p>
+        </div>
+        <nav>
+            {{ navigation }}
+        </nav>
+        <div class="user-info">
+            {{ user_info }}
+        </div>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer class="site-footer">
+        <p>Built with pure Python for organizing Dungeons &amp; Dragons tables.</p>
+    </footer>
+</body>
+</html>

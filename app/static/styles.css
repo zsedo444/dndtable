@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f3f4f6;
+    color: #1f2933;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1d4ed8;
+    color: white;
+}
+
+.site-header nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-header nav a:last-child {
+    margin-right: 0;
+}
+
+.user-info {
+    font-size: 0.9rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.form {
+    display: grid;
+    gap: 0.75rem;
+    max-width: 400px;
+}
+
+.form input,
+.form select,
+.form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.form button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #1e40af;
+}
+
+.flash {
+    padding: 0.75rem 1rem;
+    background-color: #fef3c7;
+    border: 1px solid #f59e0b;
+    color: #92400e;
+    margin-bottom: 1rem;
+}
+
+.error {
+    color: #b91c1c;
+    font-weight: bold;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th,
+.calendar td {
+    border: 1px solid #d1d5db;
+    vertical-align: top;
+    padding: 0.5rem;
+    min-height: 120px;
+}
+
+.calendar td.other-month {
+    background-color: #e5e7eb;
+    color: #6b7280;
+}
+
+.calendar td.today {
+    border: 2px solid #2563eb;
+}
+
+.calendar .date {
+    font-weight: bold;
+}
+
+.calendar .event {
+    margin-top: 0.5rem;
+    padding: 0.25rem;
+    background-color: #bfdbfe;
+    border-radius: 4px;
+}
+
+.calendar .event a {
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+.calendar .time {
+    display: block;
+    font-size: 0.85rem;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #d1d5db;
+    padding: 0.5rem;
+}
+
+.data-table th {
+    background-color: #e0e7ff;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    margin-right: 0.5rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #1e40af;
+}
+
+.actions {
+    margin: 1rem 0;
+}
+
+.checkbox {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1d4ed8;
+    color: white;
+}
